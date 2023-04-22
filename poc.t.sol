@@ -17,10 +17,6 @@ contract POCTest is Test {
     // Users 
     address alice = address(1);
     address bob = address(2);// bob always gets rekt :/
-    
-    // SWAP
-    IUniswapV2Factory factory = IUniswapV2Factory(0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f);
-    IUniswapV2Router router = IUniswapV2Router(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);
 
     uint256 fork;
     CheatCodes constant cheats = CheatCodes(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D);
